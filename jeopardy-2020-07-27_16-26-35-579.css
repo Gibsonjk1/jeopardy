@@ -1,0 +1,24 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+#table {
+	border: 1px solid black;
+}
+
+#cell {
+	border: 1px solid black;
+	width: 15%;
+	display: inline-flex;
+	justify-content: center;
+}
+
+#hcell {
+	border: 2px solid black;
+	width: 15%;
+	height: 80px;
+}

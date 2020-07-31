@@ -1,0 +1,83 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+@font-face {
+	font-family: 'itc_korinnaregular';
+	src: url('korinna-regular-webfont.woff2') format('woff2'), url('korinna-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-color: #115ff4;
+}
+#table {
+	border: 1px solid black;
+}
+
+.cell {
+	border: 1px solid black;
+	width: 15%;
+	height: 100px;
+	text-align: center;
+	background-color: #060ce9;
+	font-family: 'itc_korinnaregular';
+}
+
+.cell:hover {
+	background-color: #115ff4;
+}
+
+.question {
+	border: 1px solid black;
+	width: 15%;
+	color: white;
+	height: 100px;
+	text-align: center;
+}
+
+.answer {
+	border: 1px solid black;
+	width: 15%;
+	background-color: #115ff4;
+	height: 100px;
+	text-align: center;
+}
+.hcell {
+	border: 2px solid black;
+	border-bottom: 5px solid black;
+	width: 15%;
+	height: 80px;
+	text-align: center;
+	background-color: #060ce9;
+	font-family: 'itc_korinnaregular';
+	color: white;
+	font-weight: 900;
+}
+
+#jeopardy {
+	position: relative;
+	display: block;
+	background-image: url("https://images.squarespace-cdn.com/content/v1/5bc58608348cd9430c0c030d/1545076815317-ZKSB19U6SBJCUC26ZMZ3/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/New+Background.png");
+	background-size: cover;
+}
+
+#button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	border-radius: 25px;
+}
+
+#logo {
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
